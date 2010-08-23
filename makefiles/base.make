@@ -27,12 +27,17 @@ projects[ie_css_optimizer][subdir] = "contrib"
 ; Devel
 projects[devel][subdir]        = "contrib"
 projects[devel_themer][subdir] = "contrib"
+projects[features][subdir]     = "contrib"
+projects[diff][subdir]         = "contrib"
 
 ; Content Entry
 projects[wysiwyg][subdir]      = "contrib"
 projects[libraries][subdir]    = "contrib"
-projects[tinymce][subdir]      = "contrib"
 projects[imce][subdir]         = "contrib"
+
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
+libraries[tinymce][directory_name] = "tinymce"
 
 ; Stats
 projects[google_analytics][subdir] = "contrib"
@@ -40,3 +45,6 @@ projects[google_analytics][subdir] = "contrib"
 ; Other
 projects[admin_menu][subdir]  = "contrib"
 projects[webform][subdir]     = "contrib"
+projects[context][subdir]     = "contrib"
+projects[token][subdir]       = "contrib"
+projects[panels][subdir]       = "contrib"
