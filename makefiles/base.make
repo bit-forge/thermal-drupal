@@ -21,7 +21,8 @@ projects[pathauto][subdir]    = "contrib"
 projects[views][subdir]       = "contrib"
 
 ; Theming
-projects[] = zen
+projects[zen][subdir]         = "contrib"
+projects[zenophile][subdir]   = "contrib"
 projects[ie_css_optimizer][subdir] = "contrib"
 
 ; Devel
