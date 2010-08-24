@@ -2,4 +2,4 @@ core = 6.x
 
 projects[] = "drupal"
 
-includes[base] = "base.make"
+includes[base] = "http://github.com/thermalcreative/thermal-drupal/raw/master/makefiles/base.make"
