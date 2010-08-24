@@ -22,7 +22,7 @@ projects[views][subdir]       = "contrib"
 
 ; Theming
 projects[zen][subdir]         = "contrib"
-projects[zen][patches][]      = "http://drupal.org/files/issues/zen-634552_0.patch"
+projects[zen][patch][]      = "http://drupal.org/files/issues/zen-634552_0.patch"
 projects[zenophile][subdir]   = "contrib"
 projects[ie_css_optimizer][subdir] = "contrib"
 
