@@ -22,7 +22,8 @@ projects[views][subdir]       = "contrib"
 
 ; Theming
 projects[zen][subdir]         = "contrib"
-projects[zenophile][subdir]     = "contrib"
+projects[zen][patches][]      = "http://drupal.org/files/issues/zen-634552_0.patch"
+projects[zenophile][subdir]   = "contrib"
 projects[ie_css_optimizer][subdir] = "contrib"
 
 ; Devel
@@ -47,6 +48,7 @@ projects[google_analytics][subdir] = "contrib"
 projects[admin_menu][subdir]  = "contrib"
 projects[webform][subdir]     = "contrib"
 projects[context][subdir]     = "contrib"
+projects[context][version]    = 3.0
 projects[token][subdir]       = "contrib"
 projects[panels][subdir]      = "contrib"
 projects[ctools][subdir]      = "contrib"
