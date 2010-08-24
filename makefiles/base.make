@@ -22,7 +22,7 @@ projects[views][subdir]       = "contrib"
 
 ; Theming
 projects[zen][subdir]         = "contrib"
-projects[zenophile][subdir]   = "contrib"
+projects[zenophile][subdir]     = "contrib"
 projects[ie_css_optimizer][subdir] = "contrib"
 
 ; Devel
@@ -48,4 +48,5 @@ projects[admin_menu][subdir]  = "contrib"
 projects[webform][subdir]     = "contrib"
 projects[context][subdir]     = "contrib"
 projects[token][subdir]       = "contrib"
-projects[panels][subdir]       = "contrib"
+projects[panels][subdir]      = "contrib"
+projects[ctools][subdir]      = "contrib"
