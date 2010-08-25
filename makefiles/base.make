@@ -1,3 +1,5 @@
+core = 6.x
+
 ; CCK Core
 projects[cck][subdir]         = "contrib"
 projects[imagefield][subdir]  = "contrib"
@@ -22,7 +24,7 @@ projects[views][subdir]       = "contrib"
 
 ; Theming
 projects[zen][subdir]         = "contrib"
-projects[zen][patch][]      = "http://drupal.org/files/issues/zen-634552_0.patch"
+projects[zen][patch][]        = "http://drupal.org/files/issues/zen-634552_0.patch" ;required to work with context. hopefully will be committed to core soon.
 projects[zenophile][subdir]   = "contrib"
 projects[ie_css_optimizer][subdir] = "contrib"
 
@@ -34,6 +36,7 @@ projects[diff][subdir]         = "contrib"
 
 ; Content Entry
 projects[wysiwyg][subdir]      = "contrib"
+projects[imce_wysiwyg][subdir] = "contrib"
 projects[libraries][subdir]    = "contrib"
 projects[imce][subdir]         = "contrib"
 
@@ -48,7 +51,7 @@ projects[google_analytics][subdir] = "contrib"
 projects[admin_menu][subdir]  = "contrib"
 projects[webform][subdir]     = "contrib"
 projects[context][subdir]     = "contrib"
-projects[context][version]    = 3.0
+projects[context][version]    = 3.0 ;this isn't tagged as the default release on d.o. yet, but is required to work with Zen.
 projects[token][subdir]       = "contrib"
 projects[panels][subdir]      = "contrib"
 projects[ctools][subdir]      = "contrib"
