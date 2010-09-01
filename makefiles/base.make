@@ -41,6 +41,7 @@ projects[wysiwyg][subdir]      = "contrib"
 projects[imce_wysiwyg][subdir] = "contrib"
 projects[libraries][subdir]    = "contrib"
 projects[imce][subdir]         = "contrib"
+projects[better_formats][subdir]      = "contrib"
 
 ; required to deal with pressflow path bug.
 ; http://drupal.org/node/846136
